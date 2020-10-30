@@ -5,7 +5,7 @@ def square_array(array)
   while count < array.length do
     square = index ** 2
     squared_array << square
-    count ++
+    count += 1
   end 
   squared_array
 end
