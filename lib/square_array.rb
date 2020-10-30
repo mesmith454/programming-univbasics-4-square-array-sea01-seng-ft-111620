@@ -5,7 +5,6 @@ def square_array(array, index)
   array.length.times {  
     squared_array << array[index] ** 2
   }
-  end 
   squared_array
 end
 
