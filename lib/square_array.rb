@@ -3,7 +3,7 @@ array = [1, 2, 3]
 def square_array(array)
   count = 0
   new_numbers = [] #empty array
-  while count < array.length 
+  while count < array.length do
       array { new_numbers << Math.sqrt(i) } 
     count += 1
   end
