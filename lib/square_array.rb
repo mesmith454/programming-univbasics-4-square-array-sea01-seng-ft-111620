@@ -4,7 +4,7 @@ def square_array(array)
   count = 0
   new_numbers = [] #empty array
   while count < array.length 
-      array { new_numbers << Math.sqrt(i) } #go through each index, square and push to new_numbers
+      array { new_numbers << Math.sqrt(i) } 
     end
   count += 1 #add one to count
   end
