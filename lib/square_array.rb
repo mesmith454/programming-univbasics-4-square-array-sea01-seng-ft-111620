@@ -5,8 +5,7 @@ def square_array(array)
   new_numbers = [] #empty array
   while count < array.length 
       array { new_numbers << Math.sqrt(i) } 
-    end
-  count ++
+    count += 1
   end
   return new_numbers 
 end
