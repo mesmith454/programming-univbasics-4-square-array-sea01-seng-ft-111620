@@ -1,6 +1,6 @@
 array = [ 1, 2, 3]
 
-def square_array(array)
+def square_array(array, index)
   count = 0
   squared_array = Array.new
   while count < array.length do
